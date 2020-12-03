@@ -5,12 +5,12 @@
     .\venv\Scripts\activate
 
 2. Instanciar o git na pasta
-    com o terminal rodando na pasta do projeto digite os comandos
-    git init
-    - sincrinizar o projeto com local com a web
-    git remote add origin --link do projeto
-    - adicionar um arquivo no projeto
-    git add --arquivo
-    - git
-
+    Crie um repositorio no github, apos digite esses comandos no terminal (na pasta local do projeto)
+    echo "# Estatistica" >> README.md  -- cria o arquivo readme
+    git init  -- inicializa o git na pasta local do projeto
+    git add README.md -- adiciona o arquivo readme
+    git commit -m "first commit" --cria o primeiro comite com a msg "first commit"
+    git branch -M main --cria a branch principal
+    git remote add origin https://github.com/EvertonVaz/Estatistica.git  --se conecta com o  projeto remoto
+    git push -u origin main --Aqui envia os arquivos
 
