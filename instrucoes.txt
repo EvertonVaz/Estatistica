@@ -1,0 +1,16 @@
+1. Criar um ambiente virtual com virtualenv
+    digite os comandos no terminal
+    cd caminho do projeto (ex: C:/documentos/brasil_investimentos)
+    py -m venv venv
+    .\venv\Scripts\activate
+
+2. Instanciar o git na pasta
+    com o terminal rodando na pasta do projeto digite os comandos
+    git init
+    - sincrinizar o projeto com local com a web
+    git remote add origin --link do projeto
+    - adicionar um arquivo no projeto
+    git add --arquivo
+    - git
+
+
