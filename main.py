@@ -1,1 +1,0 @@
-# Aqui irei executar as funções ou classes das aulas que estou estudando
